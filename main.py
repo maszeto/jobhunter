@@ -4,7 +4,7 @@ from Manager import Manager
 
 def main():
     job_manager = Manager()
-    job_manager.get_jobs()
+    job_manager.scrape_jobs()
 
 
 

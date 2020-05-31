@@ -11,7 +11,7 @@ class Manager:
             'intel':Intel('intel', 'https://jobs.intel.com/ListJobs/All/Search/jobtitle/intern/country/us/state/az/', 'AZ')
             }
     
-    def get_jobs(self, companies = None):
+    def scrape_jobs(self, companies = None):
         '''
         This function is used to get the jobs from company list. If companies is None, get all the jobs, otherwise onlie get jobs from companies
         '''
